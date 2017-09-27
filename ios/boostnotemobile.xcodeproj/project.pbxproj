@@ -280,6 +280,13 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
+		D768EF821F7B32730025B776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D768EF631F7B32730025B776 /* RNTaplyticsReact.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D713D2C21E4A53AE00431D71;
+			remoteInfo = RNTaplyticsReact;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -338,6 +345,7 @@
 		CEB6D25E456848B39CB18DDD /* Courier New.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Courier New.ttf"; path = "../node_modules/native-base/Fonts/Courier New.ttf"; sourceTree = "<group>"; };
 		CFC496A2184A44A2B47AB7E4 /* Rubik-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Light.ttf"; path = "../node_modules/native-base/Fonts/Rubik-Light.ttf"; sourceTree = "<group>"; };
 		D04F6D9E15304BBB9C8DB0EA /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		D768EF631F7B32730025B776 /* RNTaplyticsReact.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNTaplyticsReact.xcodeproj; path = "../node_modules/taplytics-react-native/ios/RNTaplyticsReact.xcodeproj"; sourceTree = "<group>"; };
 		E4FB7934ED4649BCA1B4BC40 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Medium.ttf"; path = "../node_modules/native-base/Fonts/Rubik-Medium.ttf"; sourceTree = "<group>"; };
 		E570B8F563044514A80B2B76 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		EB79BE7F6F1F4A37BEF0C5AF /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
@@ -588,6 +596,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				D768EF631F7B32730025B776 /* RNTaplyticsReact.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -645,6 +654,14 @@
 				4A4C2A7A85C444A58A359DB2 /* libz.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D768EF641F7B32730025B776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D768EF831F7B32730025B776 /* libRNTaplyticsReact.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -813,6 +830,10 @@
 				{
 					ProductGroup = 55248C651F4465C5008F3CC9 /* Products */;
 					ProjectRef = 9AC4E96805824F738A14A329 /* RNFetchBlob.xcodeproj */;
+				},
+				{
+					ProductGroup = D768EF641F7B32730025B776 /* Products */;
+					ProjectRef = D768EF631F7B32730025B776 /* RNTaplyticsReact.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -1013,6 +1034,13 @@
 			fileType = archive.ar;
 			path = libRCTText.a;
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D768EF831F7B32730025B776 /* libRNTaplyticsReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNTaplyticsReact.a;
+			remoteRef = D768EF821F7B32730025B776 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
